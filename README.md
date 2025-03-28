@@ -24,7 +24,7 @@ Um projeto simples desenvolvido com FastAPI e SQLite que permite buscar endereç
 ├── README.md       # Documentação do projeto
 ```
 
-## ⚙️ Instalação
+## Instalação
 1. Crie um ambiente virtual e ative:
 ```
 python -m venv venv
