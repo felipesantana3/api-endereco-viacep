@@ -2,22 +2,22 @@
 
 Um projeto simples desenvolvido com FastAPI e SQLite que permite buscar endereços através da API VIACEP, salvar esses endereços em um banco de dados, listar os endereços salvos e excluí-los.
 
-## 📌 Funcionalidades
+## Funcionalidades
 - **Buscar endereços** através da API VIACEP.
 - **Salvar endereços** encontrados no banco de dados.
 - **Listar endereços salvos**.
 - **Excluir endereços** cadastrados.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - Python
 - FastAPI
 - SQLite
 - Pydantic
 - Requests (para consumir a API VIACEP)
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 ```
-📁 seu_projeto/
+ seu_projeto/
 ├── main.py         # Arquivo principal para inicializar a aplicação FastAPI
 ├── models.py       # Definições dos modelos Pydantic
 ├── crud.py         # Funções para interagir com o banco de dados
@@ -46,12 +46,12 @@ uvicorn main:app --reload
 http://127.0.0.1:8000
 ```
 
-## 📚 Uso
+## Uso
 - Acesse a documentação interativa do FastAPI em: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
-## 📌 Rotas disponíveis
+## Rotas disponíveis
 - `POST /enderecos/` - Buscar e salvar um novo endereço através do CEP
-- `GET /enderecos/` - Listar todos os endereços salvos
+- `GET /enderecos/` - Listar todos os endereços salvos e exibi-los de acordo com a ordem desejada.
 - `DELETE /enderecos/{endereco_id}` - Excluir um endereço cadastrado
 
 
